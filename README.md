@@ -1,6 +1,6 @@
 # VAE_lung_lesion_BMVC
 # Variational Autoencoders for Feature Exploration and Malignancy Prediction of Lung Lesions
-Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254)
+Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254).
 
 # Contents:
 
@@ -51,4 +51,4 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 * This file does a larger random hyperparameter search than my other random search files (in VAE). This script runs cross-validation on the latent vectors to find the best results of the classifier.
 
 #### *Dirichlet_RandomSearchMLP.py*
-* This file does the random hyperparameter search for the Dirichlet VAE
+* This file does the random hyperparameter search for the Dirichlet VAE.
