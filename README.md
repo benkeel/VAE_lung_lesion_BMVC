@@ -43,7 +43,7 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 * This file explores clustering of the latent vectors. Including extracting latent vectors, exploration using PCA and t-SNE and k-means clustering.
 
 #### *Clustering.ipynb*
-* Grid search for best clustering of K-Means and CLASSIX (https://github.com/nla-group/classix).
+* Grid search for best clustering with K-Means and CLASSIX (https://github.com/nla-group/classix).
 
 #### *Exploration_gaussian.ipynb*
 * Latent space exploration and code to generate latent traversal figures.
