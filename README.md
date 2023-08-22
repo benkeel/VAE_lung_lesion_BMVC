@@ -26,9 +26,6 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
   
 #### *RandomSearch_Dirichlet_VAE.py*:  
 * VAE with Dirichlet latent space. Note: produces latent vectors with better disentanglement which may allow better latent exploration as each dimension in latent vector is encouraged to encode different features.  
-   
-#### *VAE_Dirichlet_joint_loss.py*:
-* Dirichlet VAE with joint VAE and classifier loss.
 
 #### *VAE_MLP_joint_loss_mal_nonmal.py*:
 * Gaussian VAE malignant vs non-malignant with joint VAE and classifier loss.
@@ -36,14 +33,23 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 #### *VAE_joint_loss_mal_benign.py*:
 * Gaussian VAE malignant vs benign with joint VAE and classifier loss.
 
+#### *VAE_Dirichlet_joint_loss.py*:
+* Dirichlet VAE with joint VAE and classifier loss.
 
-# Clusering and MLP
+  
+## Clusering and MLP
 ### Files used in MSc
+#### *Clustering_inital.ipynb*
+* This file explores clustering of the latent vectors. Including extracting latent vectors, exploration using PCA and t-SNE and k-means clustering.
+
 #### *Clustering.ipynb*
-* This file explores clustering of the latent vectors. Including extracting latent vectors, exploration using PCA and t-SNE, k-mean clustering (used in report).
+* Grid search for best clustering of K-Means and CLASSIX (https://github.com/nla-group/classix).
 
-* *RandomSearchMLP.py*:  
-This file does a larger random hyperparameter search than my other random search files (in VAE). This script runs cross validation on the latent vectors to find the best results of the classifier.
+#### *Exploration_gaussian.ipynb*
+* Latent space exploration and code to generate latent traversal figures.
 
-* *Dirichlet_RandomSearchMLP.py*:  
-This file does the random hyperparameter search for the Dirichlet VAE
+#### *RandomSearchMLP.py*:  
+* This file does a larger random hyperparameter search than my other random search files (in VAE). This script runs cross-validation on the latent vectors to find the best results of the classifier.
+
+#### *Dirichlet_RandomSearchMLP.py*:  
+* This file does the random hyperparameter search for the Dirichlet VAE
