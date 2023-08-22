@@ -38,7 +38,6 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 
   
 ## Clusering and MLP
-### Files used in MSc
 #### *Clustering_inital.ipynb*
 * This file explores clustering of the latent vectors. Including extracting latent vectors, exploration using PCA and t-SNE and k-means clustering.
 
