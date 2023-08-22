@@ -21,20 +21,20 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 #### *Extract Latent Vectors and Reconstructions.ipynb*
 * Extract the latent vectors from the VAE model using the model parameters saved and save the latent vectors.
 
-* *RandomSearchVAE.py*:  
-Guassian VAE with hyperparameter training combined with MLP predictor to assess calssification quality of latent vectors. Note: includes splitting slices at patient level.
+#### *RandomSearchVAE.py*:  
+* Gaussian VAE with hyperparameter training combined with MLP predictor to assess calssification quality of latent vectors. Note: includes splitting slices at patient level.
   
-* *RandomSearch_Dirichlet_VAE.py*:  
-VAE with Dirichlet latent space. Note: produces latent vectors with better disentanglement which may allow better latent exploration as each dimension in latent vector is encouraged to encode different features.  
+#### *RandomSearch_Dirichlet_VAE.py*:  
+* VAE with Dirichlet latent space. Note: produces latent vectors with better disentanglement which may allow better latent exploration as each dimension in latent vector is encouraged to encode different features.  
    
-* *VAE_Dirichlet_joint_loss.py*:
-Dirichlet VAE with joint VAE and classifier loss.
+#### *VAE_Dirichlet_joint_loss.py*:
+* Dirichlet VAE with joint VAE and classifier loss.
 
-* *VAE_MLP_joint_loss_mal_nonmal.py*:
-Gaussian VAE malignant vs non-malignant with joint VAE and classifier loss.
+#### *VAE_MLP_joint_loss_mal_nonmal.py*:
+* Gaussian VAE malignant vs non-malignant with joint VAE and classifier loss.
 
-* *VAE_joint_loss_mal_benign.py*:
-Guassian VAE malignant vs benign with joint VAE and classifier loss.
+#### *VAE_joint_loss_mal_benign.py*:
+* Gaussian VAE malignant vs benign with joint VAE and classifier loss.
 
 
 # Clusering and MLP
