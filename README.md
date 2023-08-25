@@ -45,7 +45,7 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 * Grid search for best clustering with K-Means and CLASSIX (https://github.com/nla-group/classix).
 
 #### *Exploration_gaussian.ipynb*
-* Latent space exploration and code to generate latent traversal figures.
+* Latent space exploration and code to generate latent traversal figures. Also included under main are 5 example GIFs of latent traversals.
 
 #### *RandomSearchMLP.py* 
 * This file does a larger random hyperparameter search than my other random search files (in VAE). This script runs cross-validation on the latent vectors to find the best results of the classifier.
