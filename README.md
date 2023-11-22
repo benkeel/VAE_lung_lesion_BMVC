@@ -1,6 +1,7 @@
 # VAE_lung_lesion_BMVC
 # Variational Autoencoders for Feature Exploration and Malignancy Prediction of Lung Lesions
-https://proceedings.bmvc2023.org/699/
+
+paper link: https://proceedings.bmvc2023.org/699/
 
 
 Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254).
