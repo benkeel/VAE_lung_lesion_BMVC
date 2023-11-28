@@ -28,7 +28,7 @@ Exploration of LIDC-IDRI lung lesion dataset (https://wiki.cancerimagingarchive.
 * Extract the latent vectors from the VAE model using the model parameters saved and save the latent vectors.
 
 #### *RandomSearchVAE.py*  
-* Gaussian VAE with hyperparameter training combined with MLP predictor to assess calssification quality of latent vectors. Note: includes splitting slices at patient level.
+* Gaussian VAE with hyperparameter training combined with MLP predictor to assess classification quality of latent vectors. Note: includes splitting slices at patient level.
   
 #### *RandomSearch_Dirichlet_VAE.py*  
 * VAE with Dirichlet latent space. Note: produces latent vectors with better disentanglement which may allow better latent exploration as each dimension in latent vector is encouraged to encode different features.  
